@@ -26,3 +26,9 @@ Feature: Google Test
     Then Connor page is loaded
     When I click SUITING
 
+  @regression @Connor
+  Scenario: Shop a SUITING
+    Given Given I launched Connor
+    Then Connor page is loaded
+    When I click SUITING
+
